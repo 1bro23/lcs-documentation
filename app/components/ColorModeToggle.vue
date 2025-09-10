@@ -7,12 +7,12 @@ const toggleTheme = () => {
 <template>
   <UButton
     @click="toggleTheme"
-    class="bg-accented hover:bg-surface rounded-full p-1 font-bold text-amber-400"
+    class="bg-accented hover:bg-elevated rounded-full p-1 font-bold select-none"
   >
-    <UIcon name="i-lucide-sun" class="h-6 w-6 text-yellow-400 dark:hidden" />
+    <UIcon name="i-lucide-sun" class="h-6 w-6 dark:hidden" />
     <UIcon
       name="i-lucide-moon"
-      class="hidden h-6 w-6 text-yellow-300 dark:block"
+      class="hidden h-6 w-6 text-amber-100 dark:block"
     />
   </UButton>
 </template>

@@ -1,5 +1,7 @@
+import type { ToRef } from "vue";
+
 export interface FormFields {
-  value: any;
+  value: ToRef<any>;
   type: string;
   label: string;
   required: boolean;
